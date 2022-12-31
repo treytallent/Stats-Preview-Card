@@ -188,9 +188,12 @@ img {
   margin-bottom: 2em;
   --row-gap: 1em;
 }
-
-.card-img {
+.card-container {
   grid-area: img;
+  mix-blend-mode: screen;
+  opacity: 0.5;
+}
+.card-img {
   object-fit: cover;
   height: 100%;
 }
